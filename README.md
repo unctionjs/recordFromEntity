@@ -1,4 +1,4 @@
-# @unction/tempLate
+# @unction/{{NAME}}
 
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
@@ -9,9 +9,9 @@
 An example function.
 
 ``` javascript
-tempLate(1) // 1
+{{NAME}}(1) // 1
 ```
 
-[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/tempLate.svg?maxAge=2592000&style=flat-square
+[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/{{NAME}}.svg?maxAge=2592000&style=flat-square
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
-[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/tempLate.svg?maxAge=2592000&style=flat-square
+[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/{{NAME}}.svg?maxAge=2592000&style=flat-square

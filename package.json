@@ -1,5 +1,5 @@
 {
-  "name": "@unction/template",
+  "name": "@unction/{{FQNAME}}",
   "version": "1.0.0",
   "description": "",
   "keywords": [
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/tempLate#readme",
-  "repository": "github:unctionjs/tempLate",
-  "bugs": "https://github.com/unctionjs/tempLate/issues",
+  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
+  "repository": "github:unctionjs/{{NAME}}",
+  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
   "main": "transpiled/source.js",
   "scripts": {
     "postinstall": "npm run build && flow-typed install",

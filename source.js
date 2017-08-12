@@ -1,3 +1,3 @@
-export default function tempLate (alpha: mixed): mixed {
+export default function {{NAME}} (alpha: mixed): mixed {
   return alpha
 }
