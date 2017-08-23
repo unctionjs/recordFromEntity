@@ -5,6 +5,8 @@
 
 # Temporary files
 /tmp/
+/coverage/
+/.nyc_output/
 
 # Log files
 /*.log
