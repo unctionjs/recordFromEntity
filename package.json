@@ -18,6 +18,9 @@
   "repository": "github:unctionjs/{{NAME}}",
   "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
   "main": "transpiled/index.js",
+  "files": [
+    "transpiled/index.js"
+  ],
   "nyc": {
     "require": [
       "babel-register"
