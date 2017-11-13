@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/recordfromentity",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes a keyed functor that looks like an entity (keys are pointers to both keys and values) and turns them into an non-entity record",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/recordFromEntity#readme",
+  "repository": "github:unctionjs/recordFromEntity",
+  "bugs": "https://github.com/unctionjs/recordFromEntity/issues",
   "main": "transpiled/index.js",
   "files": [
     "transpiled/index.js"
@@ -58,5 +58,9 @@
     "nyc": "11.2.1",
     "tap": "10.7.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@unction/arrayify": "2.10.0",
+    "@unction/keychain": "2.32.0",
+    "@unction/recordfrom": "2.32.0"
+  }
 }
