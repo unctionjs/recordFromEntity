@@ -59,8 +59,8 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "@unction/arrayify": "2.14.0",
-    "@unction/keychain": "2.37.0",
-    "@unction/recordfrom": "2.37.0"
+    "@unction/arrayify": "2.16.0",
+    "@unction/keychain": "2.39.0",
+    "@unction/recordfrom": "2.39.0"
   }
 }
