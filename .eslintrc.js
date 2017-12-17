@@ -12,6 +12,11 @@ module.exports = {
     node: true,
     browser: true
   },
+  settings: {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
   rules: {
     "babel/new-cap": "error",
     "babel/no-invalid-this": "error",
@@ -22,8 +27,10 @@ module.exports = {
     "flowtype/delimiter-dangle": ["error", "only-multiline"],
     "flowtype/generic-spacing": "error",
     "flowtype/no-dupe-keys": "error",
+    "flowtype/no-mutable-array": "error",
     "flowtype/no-primitive-constructor-types": "error",
     "flowtype/no-types-missing-file-annotation": "off", // I don't need this
+    "flowtype/no-unused-expressions": "error",
     "flowtype/no-weak-types": "error",
     "flowtype/object-type-delimiter": "error",
     "flowtype/require-parameter-type": "error",
@@ -31,7 +38,7 @@ module.exports = {
     "flowtype/require-valid-file-annotation": "error",
     "flowtype/require-variable-type": "error",
     "flowtype/semi": "error",
-    "flowtype/sort-keys": "error",
+    "flowtype/sort-keys": "off", // Way too much work
     "flowtype/space-after-type-colon": "error",
     "flowtype/space-before-generic-bracket": "error",
     "flowtype/space-before-type-colon": "error",
@@ -43,6 +50,7 @@ module.exports = {
     "immutable/no-this": "error",
     "import/default": "error",
     "import/export": "error",
+    "import/exports-last": "error",
     "import/extensions": "error",
     "import/first": "error",
     "import/max-dependencies": "warn",
@@ -78,15 +86,16 @@ module.exports = {
     "promise/no-native": "off", // We have babel
     "promise/no-nesting": "error",
     "promise/no-promise-in-callback": "error",
+    "promise/no-return-in-finally": "error",
     "promise/no-return-wrap": "error",
     "promise/param-names": "error",
     "promise/prefer-await-to-callbacks": "off", // Not convinced of await/async
     "promise/prefer-await-to-then": "off", // Not convinced of await/async
     "accessor-pairs": "error",
-    "array-bracket-newline": ["error", "always"],
+    "array-bracket-newline": "off",
     "array-bracket-spacing": "error",
     "array-callback-return": "error",
-    "array-element-newline": "error",
+    "array-element-newline": "off",
     "arrow-body-style": "off", // Weird style
     "arrow-parens": "error",
     "arrow-spacing": "error",
@@ -95,8 +104,7 @@ module.exports = {
     "brace-style": "error",
     "callback-return": "error",
     "camelcase": "warn",
-    "capitalized-comments": "error",
-    "capitalized-comments": "off",
+    "capitalized-comments": "off", // What a stupid rule
     "class-methods-use-this": "error",
     "comma-dangle": ["error", "always-multiline"],
     "comma-spacing": "error",
@@ -284,9 +292,9 @@ module.exports = {
     "no-whitespace-before-property": "error",
     "no-with": "error",
     "nonblock-statement-body-position": "error",
-    "object-curly-newline": "error",
+    "object-curly-newline": "off",
     "object-curly-spacing": "error",
-    "object-property-newline": "error",
+    "object-property-newline": "off",
     "object-shorthand": "error",
     "one-var-declaration-per-line": "error",
     "one-var": ["error", "never"],
@@ -315,7 +323,6 @@ module.exports = {
     "semi-style": "error",
     "semi": ["error", "never"],
     "sort-imports": "off", // Not worth the hassle
-    "sort-keys": "error",
     "sort-vars": "off", // I don't like making busy work for myself
     "space-before-blocks": "error",
     "space-before-function-paren": "error",
@@ -337,5 +344,6 @@ module.exports = {
     "wrap-regex": "error",
     "yield-star-spacing": "error",
     "yoda": "error",
+    "sort-keys": "off",
   }
 }
