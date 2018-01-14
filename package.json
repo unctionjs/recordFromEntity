@@ -1,6 +1,6 @@
 {
   "name": "@unction/recordfromentity",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Takes a keyed functor that looks like an entity (keys are pointers to both keys and values) and turns them into an non-entity record",
   "keywords": [
     "unction",
