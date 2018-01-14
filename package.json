@@ -62,7 +62,7 @@
   },
   "dependencies": {
     "@unction/arrayify": "6.0.0",
-    "@unction/keychain": "6.0.0",
-    "@unction/recordfrom": "6.0.0"
+    "@unction/keychain": "7.0.0",
+    "@unction/recordfrom": "7.0.0"
   }
 }
