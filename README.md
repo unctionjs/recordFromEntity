@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyChainType -> KeyChainType -> KeyedFunctorType -> RecordType
+> KeyChainType => KeyChainType => KeyedFunctorType => RecordType
 
 Takes a keyed functor that looks like an entity (keys are pointers to both keys and values) and turns them into an non-entity record.
 
